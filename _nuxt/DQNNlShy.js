@@ -1,0 +1,1 @@
+import{_ as o}from"./CcxMamiN.js";import{k as s,e as n,i as a,w as c,c as r,a7 as _}from"./BQ_Q3R_Z.js";const l={},m={class:"max-w-full mx-auto"};function d(e,f){const t=o;return r(),n("div",m,[a(t,null,{default:c(()=>[_(e.$slots,"default")]),_:3})])}const p=s(l,[["render",d]]);export{p as default};

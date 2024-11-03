@@ -1,0 +1,1 @@
+import{d as e,x as t,c as n,e as a}from"./BQ_Q3R_Z.js";const s={class:"flex items-center justify-center w-full h-64 bg-blue-600 text-5xl !text-white"},i=e({__name:"MainBanner",setup(o){return t(),(c,l)=>(n(),a("h1",s," Formation médicale continue de la vallée de la Lys "))}});export{i as default};
