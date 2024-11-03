@@ -49,7 +49,7 @@ export default defineNuxtConfig({
     },
   },
   site: {
-    url: "https://example.com",
+    url: "https://fmc-valee-de-la-lys-fmc-valee-de-la-lys-nuxt.nuxt.space/",
   },
   compatibilityDate: "2024-09-20",
 });

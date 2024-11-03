@@ -261,36 +261,6 @@ export default defineNuxtSchema({
       title: "Header",
       description: "Header configuration.",
       fields: {
-        banner: group({
-          title: "Banner",
-          description: "Banner settings for the header.",
-          fields: {
-            show: field({
-              type: "boolean",
-              title: "Show",
-              description: "Show the banner.",
-              default: true,
-            }),
-            text: field({
-              type: "string",
-              title: "Text",
-              description: "Text to display in the banner.",
-              default: "Create your own directory website in minutes.",
-            }),
-            link: field({
-              type: "string",
-              title: "Link",
-              description: "Link for the banner.",
-              default: "https://github.com/masterkram/nuxt-directory",
-            }),
-            brandText: field({
-              type: "string",
-              title: "Brand Text",
-              description: "Brand text for the banner.",
-              default: "MintedDirectory",
-            }),
-          },
-        }),
         navbar: group({
           title: "Navbar",
           description: "Navbar settings for the header.",
