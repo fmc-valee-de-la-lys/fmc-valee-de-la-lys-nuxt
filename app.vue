@@ -1,4 +1,5 @@
 <script setup lang="ts">
+import '@fontsource/dm-serif-text';
 const { layout } = useContent();
 
 const layoutName = computed(() => layout.value || 'wide');
@@ -14,10 +15,6 @@ const layoutName = computed(() => layout.value || 'wide');
 </template>
 
 <style>
-.dark body {
-  @apply bg-gray-800;
-}
-
 @keyframes fadeInUp {
   from {
     opacity: 0;

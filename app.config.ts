@@ -2,7 +2,7 @@ import type Emoji from "./components/OgImage/Emoji.vue";
 
 export default defineAppConfig({
   general: {
-    title: "Minted Directory",
+    title: "FMC Valée de la Lys",
     logo: "",
     iconLogo: "fluent-emoji-flat:leaf-fluttering-in-wind",
   },
@@ -10,12 +10,12 @@ export default defineAppConfig({
     // override the general settings for seo tags.
     // leave empty for general priority.
     // url is necessary for correct function of seo module.
-    name: "Minted Directory",
-    description: "Example Description",
+    name: "FMC Valée de la Lys | Comines",
+    description: "Une formation continue à comines. Souscrivez à notre newsletter",
     url: "https://example.com",
     favicon: {
       image: "",
-      emoji: "🍃",
+      emoji: "👩‍⚕️",
     },
   },
   directory: {
@@ -81,46 +81,35 @@ export default defineAppConfig({
     navbar: {
       colorModeSelector: true,
       links: [
-        { name: "Directory", to: "/" },
         { name: "Blog", to: "/blog" },
-        { name: "Advertise", to: "/advertise" },
-        {
-          name: "Analytics",
-          to: "https://us.posthog.com/shared/7dgSk4cvgNYnJwBu6R47kZXHBUBJWQ",
-          target: "_blank",
-        },
       ],
     },
-    actionButton: {
-      text: "Submit a starter",
-      href: "/submit",
-    },
   },
-  footer: {
-    description: "Best directory for my niche.",
-    socials: {
-      github: {
-        link: "",
-        icon: "tabler:brand-github",
-      },
-      facebook: {
-        link: "",
-        icon: "tabler:brand-facebook",
-      },
-      instagram: {
-        link: "",
-        icon: "tabler:brand-instagram",
-      },
-      x: {
-        link: "https://x.com/mark_bruderer",
-        icon: "tabler:brand-twitter",
-      },
-      youtube: {
-        link: "https://www.youtube.com/@mark_hacks",
-        icon: "tabler:brand-youtube",
-      },
-    },
-  },
+  // footer: {
+  //   description: "Best directory for my niche.",
+  //   socials: {
+  //     github: {
+  //       link: "",
+  //       icon: "tabler:brand-github",
+  //     },
+  //     facebook: {
+  //       link: "",
+  //       icon: "tabler:brand-facebook",
+  //     },
+  //     instagram: {
+  //       link: "",
+  //       icon: "tabler:brand-instagram",
+  //     },
+  //     x: {
+  //       link: "https://x.com/mark_bruderer",
+  //       icon: "tabler:brand-twitter",
+  //     },
+  //     youtube: {
+  //       link: "https://www.youtube.com/@mark_hacks",
+  //       icon: "tabler:brand-youtube",
+  //     },
+  //   },
+  // },
   ui: {
     icons: {
       dark: "tabler:moon",

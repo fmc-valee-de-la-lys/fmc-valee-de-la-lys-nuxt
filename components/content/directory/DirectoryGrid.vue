@@ -18,9 +18,9 @@ const directoryListings = computed(() => {
     );
   }
 
-  if (tags.value.length > 0) {
+  if (tags.value?.length > 0) {
     filteredData = filteredData?.filter(e =>
-      tags.value.every(tag => e.tags?.includes(tag))
+      tags.value?.every(tag => e.tags?.includes(tag))
     );
   }
 

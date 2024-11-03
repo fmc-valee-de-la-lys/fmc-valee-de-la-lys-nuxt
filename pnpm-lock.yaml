@@ -8,6 +8,9 @@ importers:
 
   .:
     dependencies:
+      '@fontsource/dm-serif-text':
+        specifier: ^5.1.0
+        version: 5.1.0
       '@headlessui/vue':
         specifier: ^1.7.23
         version: 1.7.23(vue@3.5.7(typescript@5.6.2))
@@ -818,6 +821,9 @@ packages:
   '@fastify/busboy@2.1.1':
     resolution: {integrity: sha512-vBZP4NlzfOlerQTnba4aqZoMhE/a9HY7HRqoOPaETQcSQuWEIyZMHGfVu6w9wGtGK5fED5qRs2DteVCjOH60sA==}
     engines: {node: '>=14'}
+
+  '@fontsource/dm-serif-text@5.1.0':
+    resolution: {integrity: sha512-tjeMxXJrzYBJZQ26oI86CG7/tvk7jdgP42a2Vl5/4J0SxcPThnepPkWU3tBmkpohEZH8w7fAKUKuJ4pt89+qIg==}
 
   '@headlessui/vue@1.7.23':
     resolution: {integrity: sha512-JzdCNqurrtuu0YW6QaDtR2PIYCKPUWq28csDyMvN4zmGccmE7lz40Is6hc3LA4HFeCI7sekZ/PQMTNmn9I/4Wg==}
@@ -5783,6 +5789,8 @@ snapshots:
     optional: true
 
   '@fastify/busboy@2.1.1': {}
+
+  '@fontsource/dm-serif-text@5.1.0': {}
 
   '@headlessui/vue@1.7.23(vue@3.5.7(typescript@5.6.2))':
     dependencies:

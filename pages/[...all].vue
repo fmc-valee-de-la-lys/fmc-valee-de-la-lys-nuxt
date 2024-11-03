@@ -5,7 +5,7 @@ const config = useAppConfig();
 const app = useNuxtApp();
 
 const { page, layout } = useContent();
-
+console.log('in all', page.value, app)
 function getSEOTitle(): string {
   return page?.value?.title || config?.site?.name || "Missing Title";
 }

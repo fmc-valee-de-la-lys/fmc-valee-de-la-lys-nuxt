@@ -19,8 +19,7 @@ const routesRef = computed(() => {
 </script>
 
 <template>
-  <Disclosure as="nav" class="bg-white dark:bg-gray-700 border-b border-gray-200 dark:border-gray-600"
-    v-slot="{ open }">
+  <Disclosure as="nav" class="bg-white dark:bg-gray-700 border-b border-gray-200 dark:border-gray-600" v-slot="{ open }">
     <div class="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8">
       <div class="relative flex h-16 justify-between">
         <div class="absolute inset-y-0 left-0 flex items-center sm:hidden">
@@ -55,10 +54,7 @@ const routesRef = computed(() => {
         <div class="absolute inset-y-0 right-0 flex items-center pr-2 sm:static sm:inset-auto sm:ml-6 sm:pr-0">
           <div class="flex gap-2 items-center md:order-2 space-x-3 md:space-x-0 rtl:space-x-reverse">
             <AppHeaderColorSelector class="hidden md:flex" v-if="config?.navbar?.colorModeSelector" />
-            <NuxtLink :to="config?.actionButton?.href"
-              class="hidden md:block text-white bg-primary-700 hover:bg-primary-800 focus:ring-4 focus:outline-none focus:ring-primary-300 font-medium rounded-lg text-sm px-4 py-2 text-center dark:bg-primary-600 dark:hover:bg-primary-700 dark:focus:ring-primary-800">
-              {{ config?.actionButton?.text }}
-            </NuxtLink>
+ 
           </div>
 
         </div>
